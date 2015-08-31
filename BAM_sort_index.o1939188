@@ -1,0 +1,25 @@
++ module load samtools/1.2
+++ /cm/local/apps/environment-modules/3.2.10/Modules/3.2.10/bin/modulecmd bash load samtools/1.2
++ eval LD_LIBRARY_PATH=/hpf/tools/centos6/samtools/1.2/lib/ ';export' 'LD_LIBRARY_PATH;LOADEDMODULES=samtools/1.2' ';export' 'LOADEDMODULES;MANPATH=/hpf/tools/centos6/samtools/1.2/share/man:/usr/share/man/overrides:/usr/share/man/en:/usr/share/man:/usr/local/share/man:/usr/local/man:/cm/local/apps/environment-modules/current/share/man' ';export' 'MANPATH;PATH=/hpf/tools/centos6/samtools/1.2/bin:/usr/lib64/qt-3.3/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibutils/bin:/sbin:/usr/sbin:/home/jenvangennip/bin' ';export' 'PATH;_LMFILES_=/hpf/tools/centos6/modulefiles/samtools/1.2' ';export' '_LMFILES_;'
+++ LD_LIBRARY_PATH=/hpf/tools/centos6/samtools/1.2/lib/
+++ export LD_LIBRARY_PATH
+++ LOADEDMODULES=samtools/1.2
+++ export LOADEDMODULES
+++ MANPATH=/hpf/tools/centos6/samtools/1.2/share/man:/usr/share/man/overrides:/usr/share/man/en:/usr/share/man:/usr/local/share/man:/usr/local/man:/cm/local/apps/environment-modules/current/share/man
+++ export MANPATH
+++ PATH=/hpf/tools/centos6/samtools/1.2/bin:/usr/lib64/qt-3.3/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibutils/bin:/sbin:/usr/sbin:/home/jenvangennip/bin
+++ export PATH
+++ _LMFILES_=/hpf/tools/centos6/modulefiles/samtools/1.2
+++ export _LMFILES_
++ samtools sort /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_11.bam /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_11.sorted
++ samtools index /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_11.sorted.bam
++ samtools sort /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_13.bam /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_13.sorted
++ samtools index /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_13.sorted.bam
++ samtools sort /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_16.bam /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_16.sorted
++ samtools index /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Het_16.sorted.bam
++ samtools sort /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_4.bam /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_4.sorted
++ samtools index /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_4.sorted.bam
++ samtools sort /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_24.bam /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_24.sorted
++ samtools index /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_24.sorted.bam
++ samtools sort /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_26.bam /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_26.sorted
++ samtools index /hpf/projects/ciruna/Alignment/Ptk7_Het_and_Mut3D_August_13_2015/Aligned_BAM/Mut_26.sorted.bam
